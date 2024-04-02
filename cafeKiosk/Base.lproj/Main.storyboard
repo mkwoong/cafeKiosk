@@ -62,7 +62,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                        <color key="backgroundColor" red="0.8098718523979187" green="0.75699824818220596" blue="0.72495396445913052" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sdX-0I-x5u">
                                         <rect key="frame" x="184" y="0.0" width="179" height="30"/>
@@ -82,7 +82,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                                        <color key="backgroundColor" red="0.68976349758046862" green="0.73355685817750105" blue="0.76859849691390991" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </view>
                                 </subviews>
                                 <constraints>
@@ -146,18 +146,21 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u1f-rT-4BL">
                                         <rect key="frame" x="0.0" y="0.0" width="114.33333333333333" height="30"/>
-                                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                        <color key="backgroundColor" red="0.8392156959" green="0.90196079019999997" blue="0.96862745289999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <buttonConfiguration key="configuration" style="plain" title="직원호출"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ayt-qJ-EXN">
                                         <rect key="frame" x="124.33333333333334" y="0.0" width="114.33333333333334" height="30"/>
-                                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                        <color key="backgroundColor" red="0.8392156959" green="0.90196079019999997" blue="0.96862745289999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="전체삭제"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OCk-4g-Ka1">
                                         <rect key="frame" x="248.66666666666671" y="0.0" width="114.33333333333334" height="30"/>
-                                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                        <color key="backgroundColor" red="0.8392156959" green="0.90196079019999997" blue="0.96862745289999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="결제하기"/>
                                     </button>
@@ -170,44 +173,49 @@
                                 <rect key="frame" x="15" y="144" width="363" height="362"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ZfE-7H-LIY">
-                                    <size key="itemSize" width="220" height="205"/>
+                                    <size key="itemSize" width="170" height="170"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MenuCell" id="amB-Xf-YeN" customClass="MenuCell" customModule="cafeKiosk" customModuleProvider="target">
-                                        <rect key="frame" x="71.666666666666671" y="0.0" width="220" height="205"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="170" height="170"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="mVd-vi-Ufh">
-                                            <rect key="frame" x="0.0" y="0.0" width="220" height="205"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="d7b-rK-AT5">
+                                            <rect key="frame" x="0.0" y="0.0" width="170" height="170"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DrV-lP-kaL">
-                                                    <rect key="frame" x="30" y="5" width="160" height="160"/>
+                                                    <rect key="frame" x="30" y="5" width="110" height="110"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="DrV-lP-kaL" secondAttribute="height" multiplier="1:1" id="55N-QM-D3W"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nsa-VX-IY3">
-                                                    <rect key="frame" x="30" y="173" width="160" height="24"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nsa-VX-IY3">
+                                                    <rect key="frame" x="30" y="123" width="110" height="39"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="135" id="ygG-VC-l4t"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="DrV-lP-kaL" firstAttribute="centerX" secondItem="mVd-vi-Ufh" secondAttribute="centerX" id="O42-pX-3m8"/>
+                                                <constraint firstItem="DrV-lP-kaL" firstAttribute="centerX" secondItem="d7b-rK-AT5" secondAttribute="centerX" id="O42-pX-3m8"/>
                                                 <constraint firstItem="Nsa-VX-IY3" firstAttribute="centerX" secondItem="DrV-lP-kaL" secondAttribute="centerX" id="QDF-eH-82x"/>
-                                                <constraint firstItem="DrV-lP-kaL" firstAttribute="top" secondItem="mVd-vi-Ufh" secondAttribute="top" constant="5" id="e3w-4U-ZQv"/>
+                                                <constraint firstItem="DrV-lP-kaL" firstAttribute="top" secondItem="d7b-rK-AT5" secondAttribute="top" constant="5" id="e3w-4U-ZQv"/>
                                                 <constraint firstItem="Nsa-VX-IY3" firstAttribute="top" secondItem="DrV-lP-kaL" secondAttribute="bottom" constant="8" symbolic="YES" id="fcz-YT-UYu"/>
-                                                <constraint firstItem="DrV-lP-kaL" firstAttribute="leading" secondItem="mVd-vi-Ufh" secondAttribute="leading" constant="30" id="v5d-dR-NYE"/>
+                                                <constraint firstItem="DrV-lP-kaL" firstAttribute="leading" secondItem="d7b-rK-AT5" secondAttribute="leading" constant="30" id="v5d-dR-NYE"/>
                                                 <constraint firstItem="DrV-lP-kaL" firstAttribute="leading" secondItem="Nsa-VX-IY3" secondAttribute="leading" id="vrf-WU-P3c"/>
-                                                <constraint firstItem="Nsa-VX-IY3" firstAttribute="bottom" secondItem="mVd-vi-Ufh" secondAttribute="bottomMargin" id="yOI-Be-NMK"/>
+                                                <constraint firstItem="Nsa-VX-IY3" firstAttribute="bottom" secondItem="d7b-rK-AT5" secondAttribute="bottomMargin" id="yOI-Be-NMK"/>
                                             </constraints>
                                         </collectionViewCellContentView>
-                                        <size key="customSize" width="220" height="205"/>
+                                        <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                        <size key="customSize" width="170" height="170"/>
                                         <connections>
+                                            <outlet property="menuImage" destination="DrV-lP-kaL" id="2D5-ea-uEN"/>
                                             <outlet property="menuName" destination="Nsa-VX-IY3" id="kHt-xp-hCA"/>
                                         </connections>
                                     </collectionViewCell>
@@ -259,15 +267,6 @@
         </systemColor>
         <systemColor name="systemGray5Color">
             <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemIndigoColor">
-            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemTealColor">
-            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemYellowColor">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

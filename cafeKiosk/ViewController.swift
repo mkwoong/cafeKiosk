@@ -12,15 +12,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var menuCollectionView: UICollectionView!
     
     var coffeeMenuList:[MenuData] = [ameri,latte,caramel,dolce]
-    var beverageMenuList:[MenuData] = [lemon,grapefruit,matcha,mango]
-    var foodMenuList:[MenuData] = [chocoCake,strawberryCake,cheeseCake]
+    var beverageMenuList:[MenuData] = [lemon,milkChoco,matcha,mango]
+    var foodMenuList:[MenuData] = [chocoCake,pecanPie,cheeseCake]
     
     var menuList:[MenuData] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
     }
 
     @IBAction func tappedCategory(_ sender: UISegmentedControl) {
@@ -47,16 +46,17 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = menuCollectionView.dequeueReusableCell(withReuseIdentifier: "MenuCell", for: indexPath) as! MenuCell
-        cell.backgroundColor = .green
+        cell.backgroundColor = .systemGray6
         cell.menuName?.text = menuList[indexPath.row].name
+        cell.menuImage.image = menuList[indexPath.row].image
         return cell
     }
-    
-    
 }
 
 class MenuCell:UICollectionViewCell {
     
     @IBOutlet weak var menuName: UILabel!
+    @IBOutlet weak var menuImage: UIImageView!
+    
     
 }
